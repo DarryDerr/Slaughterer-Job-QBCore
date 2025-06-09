@@ -21,4 +21,4 @@ And move the image from images folder to qb-inventory
 - qb-inventory/html/images
 
 
-#Any issues and problems related this script please contact me on my [Discord](https://discord.gg/5KgENtV5Bf) 
+**Any issues and problems related this script please contact me on my [Discord](https://discord.gg/5KgENtV5Bf) **
