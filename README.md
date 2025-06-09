@@ -1,6 +1,5 @@
 # Slughterer-Job-QBCore
 
-# ult-slaughtererjob
 Hello Everyone
 
 I've spent a lot of time making this Slaughterer Job.
