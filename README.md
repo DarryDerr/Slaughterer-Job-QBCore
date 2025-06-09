@@ -1,4 +1,4 @@
-# Slughterer-Job-QBCore
+# Slaughterer-Job-QBCore
 
 Hello Everyone
 
