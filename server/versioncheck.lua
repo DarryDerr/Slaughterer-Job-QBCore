@@ -1,11 +1,11 @@
-local currentVersion = "1.0.0"  -- Versi lokal yang sekarang
+local currentVersion = "1.5"  -- Versi lokal yang sekarang
 
 local function checkVersion()
-    PerformHttpRequest("https://raw.githubusercontent.com/username/repo/main/version.txt", function(errorCode, result, headers)
+    PerformHttpRequest("https://raw.githubusercontent.com/DarryDerr/qb-slaughtererjob/main/version.txt", function(errorCode, result, headers)
         if errorCode == 200 then
             local latestVersion = result:gsub("%s+", "") -- hapus whitespace
             if latestVersion ~= currentVersion then
-                print("^1[Version Check]^7 Update available! Local: " .. currentVersion .. " | Latest: " .. latestVersion)
+                print("^1[Version Check]^7 Update available! Current Version: " .. currentVersion .. " | Latest: " .. latestVersion)
                 TriggerEvent('chat:addMessage', {
                     args = {"^1[Update]^7 New version available: " .. latestVersion .. ". Please update your resource."}
                 })
